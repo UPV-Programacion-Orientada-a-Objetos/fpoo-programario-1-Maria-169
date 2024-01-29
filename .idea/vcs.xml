@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/fpoo-programario-1-Maria-169" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/git-test-Maria-169" vcs="Git" />
-  </component>
+    <component name="VcsDirectoryMappings">
+        <mapping directory="" vcs="Git" />
+    </component>
 </project>
