@@ -18,7 +18,13 @@ public class App {
             System.out.println("2. Problema 2: Calcular promedio de calificaciones");
             System.out.println("3. Problema 3: Calcular área de un rectángulo");
             System.out.println("4. Problema 4: Calcular área de una circunferencia");
-            System.out.println("5. Salir");
+            System.out.println("5. Problema 5: Calcular área de un terreno A");
+            System.out.println("6. Problema 6: Calcular área de la figura A");
+            System.out.println("7. Problema 7: Calcular monto a recibir por entrega de leche");
+            System.out.println("8. Problema 8: Calcular distancia entre dos puntos");
+
+
+            System.out.println("27. Salir");
 
             try {
                 int opcion = Integer.parseInt(buffer.readLine());
@@ -37,6 +43,18 @@ public class App {
                         Problema4(buffer);
                         break;
                     case 5:
+                        Problema5(buffer);
+                        break;
+                    case 6:
+                        Problema6(buffer);
+                        break;
+                    case 7:
+                        Problema7(buffer);
+                        break;
+                    case 8:
+                        Problema8(buffer);
+                        break;
+                    case 27:
                         System.out.println("Saliendo del programa.");
                         return;
                     default:
@@ -108,7 +126,9 @@ public class App {
         System.out.print("Ingrese la longitud del lado 2 del rectángulo: ");
         double lado2 = Double.parseDouble(buffer.readLine());
 
-        double areaRectangulo = lado1 * lado2;
+        ProblemaTres problemaTres = new ProblemaTres(lado1, lado2);
+        double areaRectangulo = problemaTres.calcularAreaRectangulo();
+
         System.out.println("El área del rectángulo es: " + areaRectangulo);
     }
 
@@ -118,10 +138,71 @@ public class App {
         System.out.print("Ingrese el radio de la circunferencia: ");
         double radio = Double.parseDouble(buffer.readLine());
 
-        double areaCir = Math.PI * Math.pow(radio, 2);
-        System.out.println("El área de la circunferencia es: " + areaCir);
-    }
+        ProblemaCuatro problemaCuatro = new ProblemaCuatro(radio);
+        double areaCircunferencia = problemaCuatro.calcularAreaCircunferencia();
 
+        System.out.println("El área de la circunferencia es: " + areaCircunferencia);
+    }
+    private static void Problema5(BufferedReader buffer) throws IOException {
+        System.out.println("Problema 5: Calcular área de un terreno A");
+
+        System.out.print("Ingrese el valor de A (base del triángulo): ");
+        double baseTriangulo = Double.parseDouble(buffer.readLine());
+
+        System.out.print("Ingrese el valor de B (altura del triángulo y lado del rectángulo): ");
+        double alturaTrianguloRectangulo = Double.parseDouble(buffer.readLine());
+
+        ProblemaCinco problemaCinco = new ProblemaCinco(baseTriangulo, alturaTrianguloRectangulo);
+        double areaTerrenoA = problemaCinco.calcularAreaTerrenoA();
+
+        System.out.println("El área del terreno A es: " + areaTerrenoA);
+    }
+    private static void Problema6(BufferedReader buffer) throws IOException {
+        System.out.println("Problema 6: Calcular área de la figura A");
+
+        System.out.print("Ingrese el valor de H (hipotenusa): ");
+        double hipotenusa = Double.parseDouble(buffer.readLine());
+
+        System.out.print("Ingrese el valor de R (radio y cateto): ");
+        double radioCateto = Double.parseDouble(buffer.readLine());
+
+        ProblemaSeis problemaSeis = new ProblemaSeis(hipotenusa, radioCateto);
+        double areaFiguraA = problemaSeis.calcularAreaFiguraA();
+
+        System.out.println("El área de la figura A es: " + areaFiguraA);
+    }
+    private static void Problema7(BufferedReader buffer) throws IOException {
+        System.out.println("Problema 7: Calcular monto a recibir por entrega de leche");
+
+        System.out.print("Ingrese la cantidad de leche en litros producida: ");
+        double litrosProduccion = Double.parseDouble(buffer.readLine());
+
+        System.out.print("Ingrese el precio por galón: ");
+        double precioPorGalon = Double.parseDouble(buffer.readLine());
+
+        double montoARecibir = ProblemaSiete.calcularMontoARecibir(litrosProduccion, precioPorGalon);
+
+        System.out.println("El productor recibirá $" + montoARecibir + " por la entrega de su producción diaria.");
+    }
+    private static void Problema8(BufferedReader buffer) throws IOException {
+        System.out.println("Problema 8: Calcular distancia entre dos puntos");
+
+        System.out.print("Ingrese la coordenada x del primer punto: ");
+        double x1 = Double.parseDouble(buffer.readLine());
+
+        System.out.print("Ingrese la coordenada y del primer punto: ");
+        double y1 = Double.parseDouble(buffer.readLine());
+
+        System.out.print("Ingrese la coordenada x del segundo punto: ");
+        double x2 = Double.parseDouble(buffer.readLine());
+
+        System.out.print("Ingrese la coordenada y del segundo punto: ");
+        double y2 = Double.parseDouble(buffer.readLine());
+
+        double distancia = ProblemaOcho.calcularDistanciaEntrePuntos(x1, y1, x2, y2);
+
+        System.out.println("La distancia entre los puntos es: " + distancia);
+    }
     private static double obtenerCalificacion(BufferedReader buffer) throws IOException {
         return Double.parseDouble(buffer.readLine());
     }
