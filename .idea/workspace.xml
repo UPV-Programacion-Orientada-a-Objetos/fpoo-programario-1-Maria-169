@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90de916a-bf16-4db0-9268-1808dbd80a33" name="Changes" comment="Tercer commit" />
+    <list default="true" id="90de916a-bf16-4db0-9268-1808dbd80a33" name="Changes" comment="Tercer commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaCatorce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaDiecinueve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaDieciocho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaDieciseis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaDiecisiete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaDiez.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaDoce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaNueve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaOnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaQuince.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaTrece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaVeinte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaVeinticinco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaVeinticuatro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaVeintidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaVeintitres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaVeintiuno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaDos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaSeis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaSeis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaSiete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/ProblemaSiete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upvictoria/fpoo/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upvictoria/fpoo/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upvictoria/fpoo/ProblemaDos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upvictoria/fpoo/ProblemaDos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upvictoria/fpoo/ProblemaSeis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upvictoria/fpoo/ProblemaSeis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.upvictoria.fpoo.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.upvictoria.fpoo.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.upvictoria.fpoo.SumaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.upvictoria.fpoo.SumaTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.upvictoria.fpoo.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.upvictoria.fpoo.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.upvictoria.fpoo.SumaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.upvictoria.fpoo.SumaTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,35 +51,80 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/tmp/programario_1/programario_uno/src/main/java/edu/upvictoria/fpoo/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Maven.Programario_Uno [clean].executor": "Run",
+    "Maven.Programario_Uno [compile].executor": "Run",
+    "Maven.Programario_Uno [test].executor": "Run",
+    "Maven.Programario_Uno [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/tmp/programario_1/programario_uno/src/main/java/edu/upvictoria/fpoo/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn exec:java" />
     </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.upvictoria.fpoo.App" />
+      <module name="hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.upvictoria.fpoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.upvictoria.fpoo.Main" />
+      <module name="hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.upvictoria.fpoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
